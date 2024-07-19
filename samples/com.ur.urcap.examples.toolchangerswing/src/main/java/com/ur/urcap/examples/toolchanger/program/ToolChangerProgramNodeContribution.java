@@ -101,6 +101,7 @@ public class ToolChangerProgramNodeContribution implements ProgramNodeContributi
 		writer.sleep(2.0);
 
 		writer.set_tcp(getSelectedTCP());
+		
 	}
 
 	private ToolChangerInstallationNodeContribution getInstallationNode() {

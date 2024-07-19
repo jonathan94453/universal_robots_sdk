@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1721417239482
+Build-Jdk-Spec: 1.8
+Bundle-Activator: BWT.FastFeature.impl.Activator
+Bundle-Category: URCap
+Bundle-ContactAddress: 123 URCap Street
+Bundle-Copyright: Copyright notice (C)
+Bundle-Description: This is a description of the URCap
+Bundle-LicenseType: License type
+Bundle-ManifestVersion: 2
+Bundle-Name: FastFeature
+Bundle-SymbolicName: BWT.FastFeature
+Bundle-Vendor: URCaps R us Inc.
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Import-Package: com.ur.urcap.api.contribution;version="[1.9,2)",com.ur.u
+ rcap.api.contribution.installation;version="[1.8,2)",com.ur.urcap.api.c
+ ontribution.installation.swing;version="[1.8,2)",com.ur.urcap.api.contr
+ ibution.toolbar;version="[1.8,2)",com.ur.urcap.api.contribution.toolbar
+ .swing;version="[1.8,2)",com.ur.urcap.api.domain.data;version="[1.11,2)
+ ",com.ur.urcap.api.domain.script;version="[1.8,2)",javax.swing,org.osgi
+ .framework;version="[1.6,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+URCapCompatibility-CB3: false
+URCapCompatibility-eSeries: true
