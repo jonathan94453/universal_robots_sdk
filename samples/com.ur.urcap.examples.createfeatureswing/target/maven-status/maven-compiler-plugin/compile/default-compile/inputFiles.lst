@@ -1,0 +1,7 @@
+/workspaces/universal_robots_sdk/samples/com.ur.urcap.examples.createfeatureswing/src/main/java/com/ur/urcap/examples/createfeature/installation/CreateFeatureInstallationNodeContribution.java
+/workspaces/universal_robots_sdk/samples/com.ur.urcap.examples.createfeatureswing/src/main/java/com/ur/urcap/examples/createfeature/Activator.java
+/workspaces/universal_robots_sdk/samples/com.ur.urcap.examples.createfeatureswing/src/main/java/com/ur/urcap/examples/createfeature/program/UseFeatureProgramNodeContribution.java
+/workspaces/universal_robots_sdk/samples/com.ur.urcap.examples.createfeatureswing/src/main/java/com/ur/urcap/examples/createfeature/installation/CreateFeatureInstallationNodeService.java
+/workspaces/universal_robots_sdk/samples/com.ur.urcap.examples.createfeatureswing/src/main/java/com/ur/urcap/examples/createfeature/program/UseFeatureProgramNodeView.java
+/workspaces/universal_robots_sdk/samples/com.ur.urcap.examples.createfeatureswing/src/main/java/com/ur/urcap/examples/createfeature/installation/CreateFeatureInstallationNodeView.java
+/workspaces/universal_robots_sdk/samples/com.ur.urcap.examples.createfeatureswing/src/main/java/com/ur/urcap/examples/createfeature/program/UseFeatureProgramNodeService.java

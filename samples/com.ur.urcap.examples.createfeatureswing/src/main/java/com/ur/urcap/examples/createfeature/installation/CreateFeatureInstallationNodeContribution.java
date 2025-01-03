@@ -78,6 +78,7 @@ public class CreateFeatureInstallationNodeContribution implements InstallationNo
 		});
 
 	}
+	
 
 	void deleteFeature() {
 		featureContributionModel.removeFeature(FEATURE_KEY);

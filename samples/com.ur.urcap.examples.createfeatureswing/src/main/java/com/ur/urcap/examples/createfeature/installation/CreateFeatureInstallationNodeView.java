@@ -18,6 +18,7 @@ public class CreateFeatureInstallationNodeView implements SwingInstallationNodeV
 	private JButton createFeatureButton;
 	private JButton updateFeatureButton;
 	private JButton	deleteFeatureButton;
+	private JButton testbutton; 
 
 	@Override
 	public void buildUI(JPanel panel, final CreateFeatureInstallationNodeContribution contribution) {
@@ -51,6 +52,8 @@ public class CreateFeatureInstallationNodeView implements SwingInstallationNodeV
 		section.add(updateFeatureButton);
 		section.add(createHorizontalSpacing());
 
+		
+
 		deleteFeatureButton = createDeleteFeatureButton(contribution);
 		section.add(deleteFeatureButton);
 
@@ -61,7 +64,7 @@ public class CreateFeatureInstallationNodeView implements SwingInstallationNodeV
 		JButton btn = new JButton(CREATE_FEATURE_TXT);
 		btn.setFocusPainted(false);
 		btn.addActionListener(new ActionListener() {
-			@Override
+			@Override	
 			public void actionPerformed(ActionEvent e) {
 				contribution.createFeature();
 			}
@@ -79,6 +82,18 @@ public class CreateFeatureInstallationNodeView implements SwingInstallationNodeV
 			}
 		});
 		return btn;
+	}
+	private JButton createTestButton(final CreateFeatureInstallationNodeContribution contribution) {
+		JButton btns = new JButton("Test"); 
+		btns.setFocusPainted(false);
+		btns.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				contribution.testbutton(); 
+			}
+		}); 
+		return btns; 
+
 	}
 
 	private JButton createDeleteFeatureButton(final CreateFeatureInstallationNodeContribution contribution) {
